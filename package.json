@@ -1,0 +1,24 @@
+{
+  "name": "pricing-plan-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "cd client && npm run build & cdd ..",
+    "deploy": "cd client && gh-pages -d build && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okezieobi/pricing-plan-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okezieobi/pricing-plan-ui/issues"
+  },
+  "homepage": "https://github.com/okezieobi/pricing-plan-ui#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

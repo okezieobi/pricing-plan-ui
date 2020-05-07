@@ -1,0 +1,71 @@
+.app {
+  padding: none;
+  margin: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40em;
+}
+
+.gold-card {
+  padding: 10em;
+  color: white;
+  background-color: gold;
+  border-radius: 1em;
+  cursor: pointer;
+  max-width: 4%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 5px whitesmoke;
+  margin-bottom: 1em;
+}
+
+.bronze-card {
+  padding: 10em;
+  color: white;
+  background-color: brown;
+  border-radius: 1em;
+  cursor: pointer;
+  max-width: 4%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px;
+  box-shadow: 10px 10px 5px whitesmoke;
+  margin-bottom: 1em;
+}
+
+.silver-card {
+  padding: 10em;
+  color: white;
+  background-color: grey;
+  border-radius: 1em;
+  cursor: pointer;
+  max-width: 4%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px;
+  box-shadow: 10px 10px 5px whitesmoke;
+  margin-bottom: 1em;
+}
+
+.silver-card:hover,
+.gold-card:hover,
+.bronze-card:hover {
+  transition: transform 0.2s;
+  transform: scale(1.05);
+}
+
+.card-list {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 80em;
+  justify-content: space-evenly;
+}
+
+.card-layout {
+  max-width: 90em;
+}
+
+.h1 {
+  text-align: center;
+}

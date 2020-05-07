@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/okezieobi/pricing-plan-ui/issues"
   },
-  "homepage": "https://github.com/okezieobi/pricing-plan-ui#readme",
+  "homepage": "https://github.com/okezieobi/pricing-plan-ui",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }

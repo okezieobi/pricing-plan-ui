@@ -1,0 +1,29 @@
+{
+  "name": "pricing-plan-ui",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm i && npm run build",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okezieobi/pricing-plan-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okezieobi/pricing-plan-ui/issues"
+  },
+  "homepage": "https://okezieobi.github.io/pricing-plan-ui",
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

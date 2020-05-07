@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "cd client && npm run build && cd .. && mkdir build && cp -R client/build build && rm -R client/build",
-    "deploy": "gh-pages -d build"
+    "install": "npm install && cd client npm install",
+    "build": "npm install && cd client && npm run build",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
     "url": "https://github.com/okezieobi/pricing-plan-ui/issues"
   },
   "homepage": "https://okezieobi.github.io/pricing-plan-ui",
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

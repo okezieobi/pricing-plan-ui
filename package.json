@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "cd client && npm run build",
-    "deploy": "gh-pages -d client/build"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
